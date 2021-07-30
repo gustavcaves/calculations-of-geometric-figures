@@ -1,14 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Figuras Geométricas | Curso Practico de Js Platzi</title>
+    <link rel="stylesheet" href="./figuras.css">
 </head>
+
 <body>
-    <h1>Figuras Geométricas</h1>
+
+    <header>
+
+        <h1>Figuras Geométricas</h1>
+
+        <p>Este es el primer taller del Curso Practico de JavaScript</p>
+
+    </header>
+
+    <hr>
+
+    <section>
+
+        <h2>Calcula el area y perimetro de un cuadrado</h2>
+        <form action="">
+
+            <label for="InputCuadrado">
+                Escribe cuanto mide cada lado del cuadrado
+            </label>
+
+            <input id="InputCuadrado" type="number" />
+
+            <button type="button" onclick="calcularPerimetroCuadrado()">
+                Calcular Perímetro
+            </button>
+
+            <button type="button" onclick="calcularAreaCuadrado()">
+                Calcular Área
+            </button>
+
+        </form>
+
+    </section>
+
+    <hr>
+
+    <section>
+
+        <h2>Calcular Perimetro y Area de Triangulos</h2>
+
+        <form action="">
+
+            <label for="ladoTriangulo1">
+                Ingresa el primer lado del triangulo
+            </label>
+
+            <input type="number" id="ladoTriangulo1">
+
+            <label for="ladoTriangulo2">
+                Escribre el segundo lado del triangulo
+            </label>
+
+            <input type="number" id="ladoTriangulo2">
+
+            <label for="baseTriangulo">
+                Escribe la base del triangulo
+            </label>
+
+            <input type="number">
+
+
+            <button type="button">
+                Calcula el Perímetro
+            </button>
+            <button type="button">
+                Calcula el Área
+            </button>
+        </form>
+
+    </section>
+
+    <hr>
 
     <script src="./figuras.js"></script>
 </body>
+
 </html>
