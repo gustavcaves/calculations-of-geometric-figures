@@ -1,0 +1,26 @@
+{
+  "name": "tailwind_css1",
+  "version": "1.0.0",
+  "description": "pruebas tailwind",
+  "main": "tailwind.js",
+  "scripts": {
+    "build": "postcss src/css/styles.css --output dist/css/styles.css",
+    "watch": "postcss src/css/styles.css --output dist/css/styles.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gustavcaves/platzi-curso-practico-js.git"
+  },
+  "author": "gustav",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gustavcaves/platzi-curso-practico-js/issues"
+  },
+  "homepage": "https://github.com/gustavcaves/platzi-curso-practico-js#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.3.1",
+    "postcss": "^8.3.6",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.2.7"
+  }
+}
