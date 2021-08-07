@@ -21,6 +21,43 @@ function obtenerDescuento(precio, descuento) {
     return precioConDescuento
 }
 
+
+// // ARRAY CON CUPONES DE DESCUENTO TIPO DICCIONARIO
+
+// const coupons = [
+//     {
+//         name: "JuanDC_es_Batman",
+//         discount: 15,
+//     },
+//     {
+//         name: "pero_no_le_digas_a_nadie",
+//         discount: 30,
+//     },
+//     {
+//         name: "es_un_secreto",
+//         discount: 25,
+//     },
+// ];
+
+
+// const isCouponValueValid = function (coupon) {
+//     return coupon.name === couponValue;
+// };
+
+// const userCoupon = coupons.find(isCouponValueValid);
+
+// if (!userCoupon) {
+//     alert("El cupón " + userCouponValue + "no es válido");
+// } else {
+//     const descuento = userCoupon.discount;
+//     const precioConDescuento = calcularPrecioConDescuento(priceValue, descuento);
+
+//     const resultP = document.getElementById("ResultP");
+//     resultP.innerText = "El precio con descuento son: $" + precioConDescuento;
+// }
+
+
+
 const btnPrecio = document.getElementById("button-calculo")
 
 btnPrecio.addEventListener('click', function CalcularObtenerDescuento(params) {
@@ -34,5 +71,9 @@ btnPrecio.addEventListener('click', function CalcularObtenerDescuento(params) {
     let descuentoObtenido = obtenerDescuento(value1, value2)
     result.innerHTML = `${descuentoObtenido}`
 })
+
+
+
+
 
 
